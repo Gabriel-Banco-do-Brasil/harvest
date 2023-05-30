@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Title of the document</title> 
+    <script   src="./script.js"></script>
+    <style>
+       
+    </style>
+    
+</head>
+
+<body>    
+    <h1>Validação chave PIX</h1>
+    <table id="form">
+        <tr><td><label for="blocoRequisicao">Quantidade de CPFs por bloco de requisição</label></td> <td><input type="number" value="5" id="blocoRequisicao"></td> </tr>
+        <tr> <td><label for="qtdLinhas">Quantidade de  linhas para processar </label></td><td><input type="number" value="50" id="qtdLinhas"></td></tr>
+        <tr> <td><label for="intervalo">Intervalo (em segundos) entre as requisições </label></td><td><input type="number" value="10" id="intervalo"></td></tr>
+        <tr> <td><label for="file">Carreque o arquivo CSV</label></td><td><input type="file" id="file"  /></td></tr>        
+        <tr><td></td><td><br><button onclick="startRead();">Executar</button></td></tr>       
+
+    </table>
+
+    <table id="processando" style="visibility: hidden;">             
+        <tr><td></td><td><br><img src="./P5KZ.gif"></td></tr>
+
+    </table>
+    
+
+</body>
+
+</html>
