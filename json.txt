@@ -27,3 +27,42 @@
     ],
     "quantity": 2
 }
+
+
+
+[
+    {
+        "list": [
+            {
+                "code": "1234",
+                "result": "S"
+            },
+            {
+                "code": "12345",
+                "result": "N"
+            },
+            {
+                "code": "123456",
+                "result": "S"
+            }
+        ],
+        "quantity": 3
+    },
+    {
+        "list": [
+            {
+                "code": "1234567",
+                "result": "S"
+            },
+            {
+                "code": "12345678",
+                "result": "N"
+            },
+            {
+                "code": "123456789",
+                "result": "S"
+            }
+        ],
+        "quantity": 3
+    }
+]
