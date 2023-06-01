@@ -66,3 +66,36 @@
         "quantity": 3
     }
 ]
+
+
+
+
+
+[
+    {
+        "list": [
+            {
+                "code": "123",
+                "result": "S"
+            },
+            {
+                "code": "1234",
+                "result": "N"
+            }
+        ],
+        "quantity": 200
+    },
+    {
+        "list": [
+            {
+                "code": "12345",
+                "result": "S"
+            },
+            {
+                "code": "123456",
+                "result": "N"
+            }
+        ],
+        "quantity": 200
+    },
+]
